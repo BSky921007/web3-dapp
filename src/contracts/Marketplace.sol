@@ -28,8 +28,8 @@ contract Marketplace {
         address payable owner, 
         bool purchased
     );
-    
-    constructor() public {
+
+    constructor () public {
         name = "Dapp University Marketplace";
     }
 
